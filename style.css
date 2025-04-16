@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
+  line-height: 100%;
+}
+
+:root {
+  --text-color: #44546a;
+  --text2-color: #b1afaf;
+  --bg-color: #f9f9f9;
+  --button-color: #3b3a8a;
+  --white-color: #ffff;
+}
+
+.inter-myFont {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 534px;
+  margin-top: 183px;
+}
+
+header {
+  justify-items: center;
+}
+
+header a img {
+  width: 287px;
+  margin-bottom: 21px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.adicionar {
+  display: flex;
+  justify-content: space-between;
+  height: 52px;
+  width: 100%;
+  margin: 49px 0px 68px 0px;
+  gap: 16px;
+}
+
+.adicionar input {
+  display: flex;
+  flex: 1;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color);
+  background-color: var(--white-color);
+  padding: 4% 4%;
+  font-size: 16px;
+}
+
+.adicionar input::placeholder {
+  color: var(--text2-color);
+}
+
+.adicionar button {
+  width: 200px;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  font-size: 16px;
+  color: var(--white-color);
+  font-weight: 500;  
+  border: none;
+  cursor: pointer;
+}
+
+.adicionar button:hover {
+  background-color: ;
+}
+
+section {
+  width: 100%;  
+}
+
+section .listContent {
+  display: flex;
+  justify-content: space-between;
+  height: 29px;
+  margin-bottom: 37px;
+}
+
+section .listContent p {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+section .listContent button {
+  border: none;
+  background-color: transparent;
+  color: var(--button-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+section .list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.itemList {
+  background-color: var(--white-color);
+  height: 54px;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.itemList p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+}
