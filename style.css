@@ -75,19 +75,19 @@ h1 {
   color: var(--text2-color);
 }
 
-.adicionar button {
+button {
+  border: none;
+  cursor: pointer;
   width: 200px;
   border-radius: 5px;
   background-color: var(--button-color);
   font-size: 16px;
   color: var(--white-color);
-  font-weight: 500;  
-  border: none;
-  cursor: pointer;
+  font-weight: 500; 
 }
 
 .adicionar button:hover {
-  background-color: ;
+  background-color: rgb(59, 58, 138 , 0.8);
 }
 
 section {
@@ -113,6 +113,11 @@ section .listContent button {
   color: var(--button-color);
   font-size: 18px;
   font-weight: 400;
+}
+
+section .listContent button:hover {
+  color: rgb(59, 58, 138 , 0.8);
+  text-decoration: underline;
 }
 
 section .list {
