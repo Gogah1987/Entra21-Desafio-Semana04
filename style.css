@@ -96,6 +96,7 @@ section {
 
 section .listContent {
   display: flex;
+  justify-items: center;
   justify-content: space-between;
   height: 29px;
   margin-bottom: 37px;
@@ -104,7 +105,7 @@ section .listContent {
 section .listContent p {
   font-size: 24px;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--text-color);  
 }
 
 section .listContent button {
@@ -113,6 +114,7 @@ section .listContent button {
   color: var(--button-color);
   font-size: 18px;
   font-weight: 400;
+  width: fit-content;
 }
 
 section .listContent button:hover {
