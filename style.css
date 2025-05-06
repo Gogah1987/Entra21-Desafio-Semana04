@@ -131,9 +131,7 @@ section .list {
   height: 54px;
   padding: 16px;
   border-radius: 5px;
-}
-
-.itemList p {
+  list-style-type: none;
   font-size: 18px;
   font-weight: 400;
   color: var(--text-color);
